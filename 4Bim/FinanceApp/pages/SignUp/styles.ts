@@ -13,8 +13,11 @@ export const Container = styled.KeyboardAvoidingView`
 `;
 
 export const AreaInput = styled.View`
-  flex-direction: row;
+  width: 90%;
+  margin-bottom: 15px;
+  flex-direction: column;
 `;
+
 
 export const Input = styled.TextInput`
   background-color: #fff;
@@ -40,4 +43,10 @@ export const SubmitText = styled.Text`
   font-size: 18px;
   color: #fff;
   font-weight: 500;
+`;
+
+export const ErrorText = styled.Text`
+  color: red;
+  font-size: 12px;
+  margin-top: 4px; /* pequeno espaço entre input e erro */
 `;
